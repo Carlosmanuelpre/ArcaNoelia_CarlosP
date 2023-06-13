@@ -1,9 +1,29 @@
 @startuml
-class ballena_nadadora{}
-class perro_fiero{}
-class perro_manso{}
-class pinguino_nadador{}
-class loro_volador{}
-class nadador{}
-class volador{}
+class ballena_nadadora{
++ nombre : String
+}
+class perro_fiero{
++ nombre : String
++ gruñido : String
+}
+class perro_manso{
++ nombre : String
++ ladrido :  String
+}
+class pinguino_nadador{
++ nombre : String
+}
+class loro_volador{
++ frases : String
+}
+class nadador{
++ nadar() : void
+}
+class andante{
++andar(): void
+}
+
+class volador{
++volar() : void
+}
 @enduml

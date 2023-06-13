@@ -26,4 +26,10 @@ class andante{
 class volador{
 +volar() : void
 }
+
+ballena_nadadora --^ nadador
+perro_fiero --^ andante
+perro_manso --^ andante
+pinguino_nadador --^ nadador
+loro_volador --^ volador
 @enduml

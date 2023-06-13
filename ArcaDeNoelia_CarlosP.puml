@@ -1,11 +1,9 @@
 @startuml
-'https://plantuml.com/sequence-diagram
-
-autonumber
-
-Alice -> Bob: Authentication Request
-Bob --> Alice: Authentication Response
-
-Alice -> Bob: Another authentication Request
-Alice <-- Bob: another authentication Response
+class ballena_nadadora{}
+class perro_fiero{}
+class perro_manso{}
+class pinguino_nadador{}
+class loro_volador{}
+class nadador{}
+class volador{}
 @enduml
